@@ -11,7 +11,7 @@ setup(
     description="A Python module for parsing LLM outputs using Pydantic models",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ToQuyThanh/PydanticParser",
+    url="https://github.com/YinsenLabs/OutputParserModels",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -26,6 +26,8 @@ setup(
     ],
     install_requires=[
         "pydantic>=2.0",
+        "google-genai>=1.7.0",
+        "python-dotenv>=1.0.1",
     ],
     extras_require={
         "dev": [
